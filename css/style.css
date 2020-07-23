@@ -1,0 +1,71 @@
+/*body color and background changes*/
+body{
+	background:black;
+	color: white;
+}
+/*navbar modification */
+.navbar{
+border-bottom:blue 3px solid;
+opacity: 0.8;
+}
+
+/*Home page modification*/
+.home-section{
+	background:url('../image/home.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+}
+.home-section .dark-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height:700px;
+	background:rgba(0,0,0,0.7); 
+}
+/*home inner modification*/
+.home-section .home-inner{
+	padding-top: 140px;
+}
+/*card modification*/
+.home-section .card-form{
+	opacity: 0.9;
+}
+/* fas modification*/
+.home-section .fas{
+	color: blue;
+	background:white;
+	padding:1px;
+	border-radius: 5px;  
+}
+.explore-section{
+	background:#2d3436; 
+}
+
+/*modify connect id*/
+#connect .fas {
+	color: white;
+	background:#1e272e;
+	padding:1px;
+	border-radius: 5px;
+}
+
+/*create section modification*/
+.create-section{
+	background:#0984e3;
+}
+
+/*create passion*/
+#create-passion .fas{
+background:white;
+color: blue;
+border-radius: 5px;
+padding:1px  
+}
+
+/*share section*/
+.share-section{
+	background:#0984e3;
+}
